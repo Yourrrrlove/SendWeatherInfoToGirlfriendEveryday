@@ -38,7 +38,7 @@ const dealMessage = async () => {
     const time = forecast_24h['time']
     const observe = rj['tips']['observe']['0']
     const day_span = getDaysBetween()
-    const message = `(๑> ₃ <) hello，今天是${time}，╰(￣▽￣)╭是你在地球上生活的第${day_span}天。\n今日天气：${day_weather}，${min_degree}°C-${max_degree}°C，${day_wind_direction}。\n${comfort_detail}\n${make_up}\n${sunscreen}\n每日一句：${observe}\n(๑•̀ㅂ•́)و✧`;
+    const message = `(๑> ₃ <) hello 魏梓栩，今天是${time}，╰(￣▽￣)╭是你在地球上生活的第${day_span}天。\n今日天气：${day_weather}，${min_degree}°C-${max_degree}°C，${day_wind_direction}。\n${comfort_detail}\n${make_up}\n${sunscreen}\n每日一句：${observe}\n(๑•̀ㅂ•́)و✧`;
     console.log("message:", message);
     return message;
 }
